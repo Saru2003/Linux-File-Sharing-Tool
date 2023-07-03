@@ -85,6 +85,8 @@ In the instructions, please note that in the accompanying pictures, the script m
 
 ---
 
+## Working demo of the [Linux File Sharing Tool](https://drive.google.com/file/d/1Wsa6hkSK8BS_VsRBOqqCCJMDg2cduEzo/view?usp=sharing)
+
  #### 1. Adding a User:
 
 - To add a user, run the command `lfs.sh -a` in your terminal.
