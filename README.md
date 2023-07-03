@@ -15,15 +15,18 @@ The __Linux File Sharing Tool__ is a command-line utility designed to facilitate
 
 - Help `(-h)`: Allows users to view a help menu and review the syntax and usage of the different modes.
 
+<img src="images/Screenshot_20230703_121504.png">
+
+
 ## Benefits:
 
-1. <u>Secure File Sharing</u>: The Linux File Sharing Tool ensures secure file transfers between local machines and the centralized server, protecting sensitive data during transmission.
+1. __Secure File Sharing__: The Linux File Sharing Tool ensures secure file transfers between local machines and the centralized server, protecting sensitive data during transmission.
 
-2. <u>Convenience</u>: Users can easily send files from their local machine to the server and receive files from the server to their local machine, all from the command-line interface.
+2. __Convenience__: Users can easily send files from their local machine to the server and receive files from the server to their local machine, all from the command-line interface.
 
-3. <u>Centralized Storage</u>: By utilizing the server's storage space, users can access their files from any Linux terminal, providing flexibility and convenience.
+3. __Centralized Storage__: By utilizing the server's storage space, users can access their files from any Linux terminal, providing flexibility and convenience.
 
-4. <u>Efficient File Management</u>: The different modes of the tool enable users to add, send, receive, and view files, empowering them to organize and manage their files effectively.
+4. __Efficient File Management__: The different modes of the tool enable users to add, send, receive, and view files, empowering them to organize and manage their files effectively.
 
 
 By leveraging the _`Linux File Sharing Tool`_, users can simplify their file sharing workflows and securely access their files from any Linux terminal. The tool's intuitive modes enable seamless file transfers and efficient file management, enhancing productivity and accessibility for Linux users.
@@ -87,11 +90,16 @@ In the instructions, please note that in the accompanying pictures, the script m
 - To add a user, run the command `lfs.sh -a` in your terminal.
 - The tool will prompt you to enter a username and password. Enter the desired username and password, and remember these credentials for future access to your account.
 
+<img src="images/Screenshot_20230703_121516.png">
+
 #### 2. Sending a File:
 
 - To send a file from your local machine to the server, use the `-s` mode.
 - Run the command `lfs.sh -s <filepath>`, where `<filepath>` is the path to the file you want to send.
 - Provide your username and password when prompted. The file will be transferred to your account on the server.
+
+  <img src="images/Screenshot_20230703_121530.png">
+
 
 #### 3. Receiving a File:
 
@@ -99,12 +107,16 @@ In the instructions, please note that in the accompanying pictures, the script m
 - Run the command `lfs.sh -r <filepath>`, where `<filepath>` is the path where you want to save the received file.
 - Provide your username and password when prompted. The file will be downloaded from your server and saved to the location from where the command is run.
 
+  <img src="images/Screenshot_20230703_121557.png">
+
 #### 4. Viewing Your Files:
 
 - To view the file structure of your account on the server, use the `-v` mode.
 - Run the command `lfs.sh -v` in your terminal.
 - Provide your username and password when prompted.
 - The tool will display the directory structure of your account on the server.
+
+  <img src="images/Screenshot_20230703_121626.png">
 
 Please ensure that you have the necessary permissions and credentials to perform these actions.
 
