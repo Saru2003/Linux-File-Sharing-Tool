@@ -4,6 +4,8 @@
 ## Overview:
 The __Linux File Sharing Tool__ is a command-line utility designed to facilitate secure and efficient file sharing between local machines and a centralized server. With four distinct modes, users can seamlessly transfer files between their devices and their personal accounts on the server, making it convenient to access files from any Linux terminal.
 
+## Working demo of the [Linux File Sharing Tool](https://drive.google.com/file/d/1Wsa6hkSK8BS_VsRBOqqCCJMDg2cduEzo/view?usp=sharing)
+
 ## Key Features:
 
 - Add User Mode `(-a)`: Users can create an account on the server using the tool's add user mode. This mode enables users to set up their personal storage space and establish secure access to their files.
@@ -85,7 +87,6 @@ In the instructions, please note that in the accompanying pictures, the script m
 
 ---
 
-## Working demo of the [Linux File Sharing Tool](https://drive.google.com/file/d/1Wsa6hkSK8BS_VsRBOqqCCJMDg2cduEzo/view?usp=sharing)
 
  #### 1. Adding a User:
 
